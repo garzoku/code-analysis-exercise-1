@@ -69,7 +69,8 @@ function (number){
 6). If the current iteration is less than 10 (if this iteration is not the last value in the array) the value of spacer is changed to a string of "\n". <br>
 7). The table variable is assigned a string value, the iteration is multiplied by the number, and then a new line is created at the end of the string.<br>
 8). The For loop continues to execute it's own code block until it iterates through every value in the array. Each iteration, table variable is assigned the equation's resulting value on a new line.<br>
-9). This function will return a 10-row multiplication table for the entered number.</td>
+9). Once the For loop iterates through every value in the array, it exits the loop and the string value of table is returned.<br>
+10). This function will return a 10-row multiplication table for the entered number.</td>
   </tr>
 </table>
 
